@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		
+	</title>
+</head>
+
+
+
+<body>	
+		
+	<script type="text/javascript">
+		var rand = Math.floor(Math.random()*10+1);
+			
+	    var number=window.prompt("Please guess a number in range 1 to 10");
+		number=parseInt(number)
+
+		while(number != rand){
+			number = window.prompt("Please guess a number again");
+		}
+		document.write('Great!')
+
+	</script>
+</body>
+</html>
